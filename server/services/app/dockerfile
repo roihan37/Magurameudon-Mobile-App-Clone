@@ -1,0 +1,16 @@
+FROM node:lts-hydrogen
+
+WORKDIR /apps
+
+COPY . .
+
+RUN npm install --production
+
+ENV PORT=4002
+ENV DATABASE_URL="postgres://postgres:roihan37roihan@db.pqgidwcaatfwkkdartvr.supabase.co:6543/postgres"
+
+
+EXPOSE 4002
+
+# Jalankan nodejs
+CMD ["node", "app.js"]

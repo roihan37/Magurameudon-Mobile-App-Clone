@@ -1,0 +1,77 @@
+{
+    "Items" : [
+        {
+            "id" : 1,
+            "name" : "KAMAAGE UDON FAMILY",
+            "description" : "Mie udon autentik Jepang, disajikan dengan 4 porsi set bukake dashi. Cocok dinikmati saat udara dingin bersama keluarga atau teman.",
+            "price" : 17000,
+            "imgUrl" : "https://www.marugameudon.co.id/webroot/files/MenuDetails/picture/u2.jpg",
+            "authorId" : 1,
+            "categoryId" : 1
+        },
+        {
+            "id" : 2,
+            "name" : "KAMAAGE UDON REGULER",
+            "description" : "Mie udon autentik Jepang, disajikan dengan set bukake dashi. Cocok dinikmati saat cuaca sedang dingin.",
+            "price" : 19000,
+            "imgUrl" : "https://www.marugameudon.co.id/webroot/files/MenuDetails/picture/u1.jpg",
+            "authorId" : 1,
+            "categoryId" : 1
+        },
+        {
+            "id" : 3,
+            "name" : "KAKE UDON",
+            "description" : "Mie udon hangat, disajikan dengan sup kake dashi yang juga hangat.",
+            "price" : 21000,
+            "imgUrl" : "https://www.marugameudon.co.id/webroot/files/MenuDetails/picture/Kake-Udon-1.jpg",
+            "authorId" : 1,
+            "categoryId" : 1
+        },
+        {
+            "id" : 4,
+            "name" : "BEEF CROQUETTE",
+            "description" : "Kroket kentang dengan daging sapi cincang.",
+            "price" : 15000,
+            "imgUrl" : "https://www.marugameudon.co.id/webroot/files/MenuDetails/picture/Image%20Web_500x397px_Beef%20Croquette.png",
+            "authorId" : 1,
+            "categoryId" : 2
+        },
+        {
+            "id" : 5,
+            "name" : "CHICKEN KATSU",
+            "description" : "Dua lapis katsu daging ayam tebal, fillet dan cincang yang gurih dan crunchy.",
+            "price" : 15000,
+            "imgUrl" : "https://www.marugameudon.co.id/webroot/files/MenuDetails/picture/Chiken-katsu-tempura-2.jpg",
+            "authorId" : 1,
+            "categoryId" : 2
+        }   
+    ],
+    "Category" : [
+        {
+            "id" : 1,
+            "name" : "Udon"
+        },
+        {
+            "id" : 2,
+            "name" : "Tempura"
+        }
+    ],
+    "Ingredients" : [
+        {
+            "id" : 1,
+            "itemId" : 1,
+            "name" : "Mie udon"
+        },
+        {
+            "id" : 2,
+            "itemId" : 1,
+            "name" : "Kuah Kari"
+        },
+        {
+            "id" : 3,
+            "itemId" : 1,
+            "name" : "Daging Sapi"
+        }
+
+    ]
+}
